@@ -1503,5 +1503,8 @@ int main()
 	int minusnum = -10;
 	minusnum = minusnum / 0xFFFFFFFF;
 
+	string expstr = "-1234";
+	int expnumi = atoi(expstr.c_str());
+
 	return 0;
 }
